@@ -1,0 +1,86 @@
+body {
+    background-image: url("manUnited1.jpg");
+    background-color: lightgray;
+    background-size: cover;
+    justify-content: space-evenly;
+    justify-content: stretch;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.firstZone {
+    color: black;
+    font-size: 75px;
+    font-style: italic;
+    text-align: center; 
+}
+
+.secondZone {
+    color: black;
+    font-size: 40px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* .thirdZone {
+    color: black;
+    font-size: 60px;
+    font-style: italic;
+    text-align: right;
+} */
+
+.block1 {
+    float: left;
+    display: block;
+    width: 10%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: gold;
+    padding: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.block2 {
+    float: right;
+    display: block;
+    width: 10%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: gold;
+    padding: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+nav {
+    /* border: solid purple 4px;
+    border-radius: 25px;  */
+    display: flex;
+    justify-content: space-between;
+}
+
+.block3 {
+    float: right;
+    display: block;
+    width: 10%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: gold;
+    padding: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    background-size: 100%;
+}
+
+.headingOne {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    font:italic;
+}
+
+img {
+    width: 25%;
+}
+
+.block1, .block2 {
+
+    width: 1;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: gold;
+    padding: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trebble {
+    display: flex;
+    justify-content: flex;
+}

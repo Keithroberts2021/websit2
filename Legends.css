@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    background-size: 100%;
+}
+
+.headingOne {
+    color: white;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    font: italic;
+    
+}
+
+.players {
+    border-color: white;
+    border-color: red;
+    border-style: solid;
+    padding: 15px;
+    width: 33px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    width: 10%;
+}
+
+.block1, .block2 {
+
+    width: 10%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: gold;
+    padding: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.block2 {
+    float: inline-end;
+    display: block;
+    width: 10%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 8px;
+    background-color: gold;
+    padding: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    text-align: center;
+}
